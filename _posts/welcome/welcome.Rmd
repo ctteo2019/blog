@@ -1,10 +1,17 @@
 ---
-title: "Welcome to IDEA"
+title: "Welcome to Lance's Visual Analytics Journey!"
 description: |
-  Welcome to our new blog, IDEA. We hope you enjoy 
-  reading what we have to say!
+  Welcome to my blog on a Visual Analytics Journey!    
+  
+  This blog is part of a course called "Visual Analytics and Application" conducted by Prof Kam Ting Seong in the 
+  Singapore Management University (SMU).    
+  
+  I will be posting various Data Visualisation Makeovers 
+  as part of the course deliverables and also be posting on our Data Visualisation Project.    
+  
+  Feel free to give feedbacks on our work. Thank you!
 author:
-  - name: Lance Teo 
+  - name: Lance Teo Chye Teck
     url: https://www.linkedin.com/in/lanceteoct/
     affiliation: Agency for Science, Technology and Research
     affiliation_url: https://www.a-star.edu.sg

@@ -1,22 +1,5 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to IDEA",
-    "description": "Welcome to our new blog, IDEA. We hope you enjoy \nreading what we have to say!",
-    "author": [
-      {
-        "name": "Lance Teo",
-        "url": "https://www.linkedin.com/in/lanceteoct/"
-      }
-    ],
-    "date": "2021-01-11",
-    "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-01-11T16:12:23+08:00",
-    "input_file": "welcome.utf8.md"
-  },
-  {
     "path": "posts/2021-01-11-my-first-post/",
     "title": "My first post",
     "description": "A short description of the post.",
@@ -32,5 +15,22 @@
     "preview": "posts/2021-01-11-my-first-post/my-first-post_files/figure-html5/unnamed-chunk-3-1.png",
     "last_modified": "2021-01-26T00:34:42+08:00",
     "input_file": "my-first-post.utf8.md"
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Lance's Visual Analytics Journey!",
+    "description": "Welcome to my blog on a Visual Analytics Journey!    \n\nThis blog is part of a course called \"Visual Analytics and Application\" conducted by Prof Kam Ting Seong in the \nSingapore Management University (SMU).    \n\nI will be posting various Data Visualisation Makeovers \nas part of the course deliverables and also be posting on our Data Visualisation Project.    \n\nFeel free to give feedbacks on our work. Thank you!",
+    "author": [
+      {
+        "name": "Lance Teo Chye Teck",
+        "url": "https://www.linkedin.com/in/lanceteoct/"
+      }
+    ],
+    "date": "2021-01-11",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-01-26T23:49:13+08:00",
+    "input_file": "welcome.utf8.md"
   }
 ]
