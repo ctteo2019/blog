@@ -1,0 +1,34 @@
+---
+title: "DataViz Makeover 1"
+description: |
+  This post is on makeover of a data visualisation published on a Report called "Labour Force in Singapore 2019" 
+  by Ministry of Manpower (MOM) Singapore.
+author:
+  - name: Lance Teo Chye Teck
+    url: https://www.linkedin.com/in/lanceteoct/
+date: 01-27-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# The Task
+
+## a. Critic the graph from both its clarity and aesthetics. At least three from each evaluation criterion.    
+
+
+## b. With reference to the critics above, suggest alternative graphical presentation to improve the current design. The proposed alternative data visualisation must be in static form. Sketch out the proposed design. Support your design by describing the advantages or which part of the issue(s) your alternative design try to overcome.    
+
+## c. Using Tableau, design the proposed data visualization.    
+
+## d. Provide step-by-step description on how the data visualization was prepared.    
+
+## e. Describe three major observations revealed by the data visualisation prepared.    
+
+
+
