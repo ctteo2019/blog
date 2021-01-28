@@ -33,10 +33,10 @@ Table 5: RESIDENT LABOUR FORCE PARTICIPATION RATE BY AGE AND SEX, 2009 - 2019 (J
 
 ### Clarity    
 
-1. By using overlapping line charts for the two different years, it is able to show the increase or decrease for the various age group clearly. However, line graph is normally used to show trend over time, hence, it may be confuse the audience thinking that there is a relationship between the different age groups.
+1. By using overlapping line charts for the two different years, it is able to show the increase or decrease for the various age group clearly. However, line graph is normally used to show trend over time, hence, it may confuse the audience thinking that there is a relationship between the different age groups.
 2. The chart title is stated as "Resident labour force by age" and sub-titled "Per Cent". There is no "%" symbol used for the whole chart. It is hard to visualise that chart is illustrating the percentage share of resident labour force by looking at the chart alone. 
 3. The lead-in statement accompanying the data visualisation mentioned Labour Force Participation Rate (LFPR) a few times as a comparison to the percentage share of Resident Labour Force by Age Group, but there is no indication of LFPR within the visualisation. The visualisation is mainly describing the percentage share of the Labour Force by Age, and not LFPR.
-4. The lead-in statement also mentioned age group that are not seen within the visualisation such as age group 25-54 and age group 55 & over.
+4. The lead-in statement also mentioned age groups that are not seen within the visualisation such as age group 25-54 and age group 55 & over.
 
 
 
@@ -87,7 +87,7 @@ Therefore, a transformation is done to extract the data that we need for the dat
 The data transformation steps (done in Microsoft Excel) are as follows:   
 
 * For both tables, removed data for year 2010 to 2018
-* For Table 7, compute the **% Share of Resident Labour Force** by taking the resident labour force of each age group divided by the total resident labour force for both years (2009 and 2019). *e.g. for age group 15 - 19 in year 2009, we take 31.8 divide by 1985.7 which gives us 0.016 or 16%.*
+* For Table 7, compute the **% Share of Resident Labour Force** by taking the resident labour force of each age group divided by the total resident labour force for both years (2009 and 2019). *e.g. for age group 15-19 in year 2009, we take 31.8 divide by 1985.7 which gives us 0.016 or 16%.*
 * For Table 5, the LFPR data were given in percentage instead of a decimal (e.g. 88% instead of 0.88). A decimal is preferred for data visualisation in Tableau so we transformed the percentage into decimal by dividing the given data by 100. *e.g. 88 divide 100 gives us 0.88*.
 * Next for both table, the data were manually pivoted by year and age group.
 * Lastly, both tables are manually merged into one table.
