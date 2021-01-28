@@ -36,7 +36,7 @@
   {
     "path": "posts/welcome/",
     "title": "Welcome to Lance's Visual Analytics Journey!",
-    "description": "Welcome to my blog on a Visual Analytics Journey!    \n\nThis blog is part of a course called \"Visual Analytics and Application\" conducted by Prof Kam Ting Seong in the \nSingapore Management University (SMU).    \n\nI will be posting various Data Visualisation Makeovers \nas part of the course deliverables and also be posting on our Data Visualisation Project.    \n\nFeel free to give feedbacks on our work. Thank you!",
+    "description": "Welcome to my blog on a Visual Analytics Journey!    \n\nThis blog is part of a course called \"Visual Analytics and Application\" conducted by Prof Kam Tin Seong in the \nSingapore Management University (SMU).    \n\nI will be posting various Data Visualisation Makeovers \nas part of the course deliverables and also be posting on our Data Visualisation Project.    \n\nFeel free to give feedbacks on our work. Thank you!",
     "author": [
       {
         "name": "Lance Teo Chye Teck",
@@ -47,7 +47,7 @@
     "categories": [],
     "contents": "\r\nImage of GitHub Mascot\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-01-27T00:41:58+08:00",
+    "last_modified": "2021-01-28T23:40:03+08:00",
     "input_file": "welcome.utf8.md"
   }
 ]

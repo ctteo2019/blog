@@ -3,7 +3,7 @@ title: "Welcome to Lance's Visual Analytics Journey!"
 description: |
   Welcome to my blog on a Visual Analytics Journey!    
   
-  This blog is part of a course called "Visual Analytics and Application" conducted by Prof Kam Ting Seong in the 
+  This blog is part of a course called "Visual Analytics and Application" conducted by Prof Kam Tin Seong in the 
   Singapore Management University (SMU).    
   
   I will be posting various Data Visualisation Makeovers 
