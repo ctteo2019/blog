@@ -117,7 +117,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["dataviz-makeover-1_files/anchor-4.2.2/anchor.min.js","dataviz-makeover-1_files/bowser-1.9.3/bowser.min.js","dataviz-makeover-1_files/distill-2.2.21/template.v2.js","dataviz-makeover-1_files/jquery-1.11.3/jquery.min.js","dataviz-makeover-1_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["dataviz-makeover-1_files/anchor-4.2.2/anchor.min.js","dataviz-makeover-1_files/bowser-1.9.3/bowser.min.js","dataviz-makeover-1_files/distill-2.2.21/template.v2.js","dataviz-makeover-1_files/jquery-1.11.3/jquery.min.js","dataviz-makeover-1_files/webcomponents-2.0.0/webcomponents.js","images/bar-01.png","images/bar-02.png","images/bar-03.png","images/bar-04.png","images/bar-05.png","images/bar-06.png","images/bar-07.png","images/bar-08.png","images/bar-09.png","images/bar-10.png","images/bar-11.png","images/bar-12.png","images/bar-13.png","images/bar-14.png","images/bar-15.png","images/bar-16.png","images/bar-17.png","images/bar-18.png","images/bar-19.png","images/bar-20.png","images/bar-21.png","images/connection-type.png","images/dashboard-01.png","images/data-cleaned.png","images/data-table5.png","images/data-table7.png","images/date-data-type.png","images/db-01.png","images/db-02.png","images/db-03.png","images/db-04.png","images/db-05.png","images/db-06.png","images/db-07.png","images/db-08.png","images/db-09.png","images/db-10.png","images/db-11.png","images/db-12.png","images/db-13.png","images/db-14.png","images/db-15.png","images/db-16.png","images/orig-viz.png","images/proposed-viz.jpg"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2051,12 +2051,192 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <div class="d-article">
+<h1 id="the-original-visualisation">The Original Visualisation</h1>
+<figure>
+<img src="images/orig-viz.png" alt="" /><figcaption>Original Visualisation</figcaption>
+</figure>
+<h1 id="data-source">Data Source</h1>
+<p>The original source of this chart can be found on page 22 of <a href="https://stats.mom.gov.sg/Pages/Labour-Force-In-Singapore-2019.aspx">Report: Labour Force in Singapore 2019</a>.</p>
+<p>The data is available at <a href="https://stats.mom.gov.sg/Pages/Labour-Force-Tables2019.aspx" class="uri">https://stats.mom.gov.sg/Pages/Labour-Force-Tables2019.aspx</a>,<br />
+Table 5: RESIDENT LABOUR FORCE PARTICIPATION RATE BY AGE AND SEX, 2009 - 2019 (JUNE).</p>
 <h1 id="the-task">The Task</h1>
 <h2 id="a.-critic-the-graph-from-both-its-clarity-and-aesthetics.-at-least-three-from-each-evaluation-criterion.">a. Critic the graph from both its clarity and aesthetics. At least three from each evaluation criterion.</h2>
+<h3 id="clarity">Clarity</h3>
+<ol type="1">
+<li>By using overlapping line charts for the two different years, it is able to show the increase or decrease for the various age group clearly. However, line graph is normally used to show trend over time, hence, it may be confuse the audience thinking that there is a relationship between the different age groups.</li>
+<li>The chart title is stated as “Resident labour force by age” and sub-titled “Per Cent”. There is no “%” symbol used for the whole chart. It is hard to visualise that chart is illustrating the percentage share of resident labour force by looking at the chart alone.</li>
+<li>The lead-in statement accompanying the data visualisation mentioned Labour Force Participation Rate (LFPR) a few times as a comparison to the percentage share of Resident Labour Force by Age Group, but there is no indication of LFPR within the visualisation. The visualisation is mainly describing the percentage share of the Labour Force by Age, and not LFPR.</li>
+<li>The lead-in statement also mentioned age group that are not seen within the visualisation such as age group 25-54 and age group 55 &amp; over.</li>
+</ol>
+<h3 id="aesthetics">Aesthetics</h3>
+<ol type="1">
+<li>Good use of 2 contrasting colours (Dark Blue and Grey) to differentiate the two different years and using the brighter colour as a highlight for the later year (i.e. 2019).</li>
+<li>The given month (June) for the label/legend for the data table is insignificant and distracting.</li>
+<li>Putting the data label in the data table at the bottom of the chart is hard to relate the data to the chart.</li>
+</ol>
 <h2 id="b.-with-reference-to-the-critics-above-suggest-alternative-graphical-presentation-to-improve-the-current-design.-the-proposed-alternative-data-visualisation-must-be-in-static-form.-sketch-out-the-proposed-design.-support-your-design-by-describing-the-advantages-or-which-part-of-the-issues-your-alternative-design-try-to-overcome.">b. With reference to the critics above, suggest alternative graphical presentation to improve the current design. The proposed alternative data visualisation must be in static form. Sketch out the proposed design. Support your design by describing the advantages or which part of the issue(s) your alternative design try to overcome.</h2>
+<figure>
+<img src="images/proposed-viz.jpg" alt="" /><figcaption>Proposed Visualisation</figcaption>
+</figure>
+<h3 id="clarity-1">Clarity</h3>
+<ol type="1">
+<li>The initial line graph is changed to a side-by-side bar chart to make it clearer that there is no time-series trend portrayed in the visualisation.</li>
+<li>The chart is clearly labeled as “% share of Resident Labour Force” so that the audience would be clear it is a percentage and not a number.</li>
+<li>Additional chart is added to show how LFPR has changed for the different age groups from 2009 to 2019. It is also strategically placed on top of the revised side-by-side bar chart to align the x-axis (Age Group) for better comparison. A dumbbell chart is used to better portray the magnitude of the changes in each of the age group from 2009 to 2019.</li>
+<li>Two additional charts are created with a more aggregated age group which were mentioned in the lead-in statement and also available in the dataset (i.e. 15-24, 25-64, 65 &amp; Over). Both are an aggregated version of the side-by-side bar chart and dumbbell chart, and are strategically places on the right of respectively graph for better comparison.</li>
+</ol>
+<h3 id="aesthetics-1">Aesthetics</h3>
+<ol type="1">
+<li>Both dark blue and grey colours are retained and used in all 4 charts. An additional golden yellow colour is used for the dumbbell chart to better highlight the changes of the LFPR between 2009 and 2019.</li>
+<li>Remove all unnecessary legend and focus on using colours to differentiate the two different years. A legend is added to the top right.</li>
+<li>The data table is removed and data labels are added to all points. This allows users to view each data point in static form.</li>
+</ol>
 <h2 id="c.-using-tableau-design-the-proposed-data-visualization.">c. Using Tableau, design the proposed data visualization.</h2>
+<p><a href="https://public.tableau.com/profile/lance.teo#!/vizhome/DataVizMakeover01/HowdoesSingaporeResidentLabourForcechangedfrom2009to2019">Link to Proposed Data Visualisation in Tableau Public</a></p>
 <h2 id="d.-provide-step-by-step-description-on-how-the-data-visualization-was-prepared.">d. Provide step-by-step description on how the data visualization was prepared.</h2>
+<h3 id="data-preparation">Data Preparation</h3>
+<p>2 datasets were used for this data visualisation:</p>
+<ul>
+<li><a href="https://stats.mom.gov.sg/iMAS_Tables1/LabourForce/LabourForce_2019/mrsd_2019LabourForce_T5.xlsx">(5) Resident Labour Force Participation Rate by Age and Sex, 2009 - 2019 (June)</a></li>
+<li><a href="https://stats.mom.gov.sg/iMAS_Tables1/LabourForce/LabourForce_2019/mrsd_2019LabourForce_T7.xlsx">(7) Resident Labour Force Aged Fifteen Years and Over by Age and Sex, 2009 - 2019 (June)</a></li>
+</ul>
+<p>Screenshots of the raw dataset are as shown below:</p>
+<p><img src="images/data-table5.png" alt="(5) Resident Labour Force Participation Rate by Age and Sex, 2009 - 2019 (June)" /> <img src="images/data-table7.png" alt="(7) Resident Labour Force Aged Fifteen Years and Over by Age and Sex, 2009 - 2019 (June)" /> However, we do not need many of the data and there are also some data that we need but not available in the dataset. Therefore, a transformation is done to extract the data that we need for the data visualisation.</p>
+<p>The data transformation steps (done in Microsoft Excel) are as follows:</p>
+<ul>
+<li>For both tables, removed data for year 2010 to 2018</li>
+<li>For Table 7, compute the <strong>% Share of Resident Labour Force</strong> by taking the resident labour force of each age group divided by the total resident labour force for both years (2009 and 2019). <em>e.g. for age group 15 - 19 in year 2009, we take 31.8 divide by 1985.7 which gives us 0.016 or 16%.</em></li>
+<li>For Table 5, the LFPR data were given in percentage instead of a decimal (e.g. 88% instead of 0.88). A decimal is preferred for data visualisation in Tableau so we transformed the percentage into decimal by dividing the given data by 100. <em>e.g. 88 divide 100 gives us 0.88</em>.</li>
+<li>Next for both table, the data were manually pivoted by year and age group.</li>
+<li>Lastly, both tables are manually merged into one table.</li>
+</ul>
+<p>The transformed dataset is shown below:</p>
+<p><img src="images/data-cleaned.png" style="width:50.0%" alt="Transformed Dataset" /><br />
+As you may have noticed, there are some null values in the <strong>% Share of Resident Labour Force</strong> column. There is no problem here since we are not using these data points so we will leave it as null.</p>
+<p>Lastly, we loaded this dataset into Tableau.</p>
+<p>Some steps that we took after loading the dataset:</p>
+<ul>
+<li><p>Change the connection type (located at the top right) from <em>Live</em> to <em>Extract</em> since it was noted that Tableau Public does not work very well with live local dataset. <img src="images/connection-type.png" alt="Connection Type" /></p></li>
+<li><p>Changed data type of <strong>Year</strong> column from <em>Number (whole)</em> to <em>Date</em> <img src="images/date-data-type.png" alt="“Year” Data Type" /></p></li>
+</ul>
+<p>And we are all set for the real work!</p>
+<h3 id="side-by-side-bar-chart">Side-by-side Bar Chart</h3>
+<p>Below are the steps for our side-by-side bar chart:</p>
+<ol type="1">
+<li>Drag <strong>Age Group</strong> and <strong>Year</strong> from Dimensions to <em>Columns</em> and <strong>% Share of Resident Labour Force</strong> from Measures to <em>Rows</em>.</li>
+</ol>
+<figure>
+<img src="images/bar-01.png" alt="" /><figcaption>bar-step-01</figcaption>
+</figure>
+<ol start="2" type="1">
+<li>Drag <strong>Age Group</strong> to <em>Filters</em> and select the age groups that we want.<br />
+i.e. 15-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70 &amp; Over</li>
+</ol>
+<figure>
+<img src="images/bar-02.png" alt="" /><figcaption>bar-step-02</figcaption>
+</figure>
+<ol start="3" type="1">
+<li><p>Under <em>Marks</em>, change the chart type to <strong>Bar</strong> and drag <strong>Year</strong> to <em>Color</em>.<br />
+<img src="images/bar-03.png" style="width:50.0%" alt="bar-step-03" /><br />
+</p></li>
+<li><p>Click on <em>Color</em> and click on <em>Edit Colors</em>. Change colours of year <strong>2009</strong> and <strong>2019</strong> to <strong>#adadad</strong> and <strong>#0000d3</strong> respectively under the <strong>HTML</strong> on the bottom right.<br />
+<img src="images/bar-04.png" alt="bar-step-04" /><br />
+</p></li>
+<li><p>Right click on the <strong>X-Axis</strong> and untick <strong>Show Header</strong>. <img src="images/bar-05.png" alt="bar-step-05" /><br />
+</p></li>
+<li><p>Right click on the <strong>Y-Axis</strong> and click on <strong>Edit Axis</strong>. <img src="images/bar-06.png" style="width:50.0%" alt="bar-step-06" /></p></li>
+<li><p>Change the <strong>Range</strong> to <strong>Fixed</strong> and change the *Fixed end<strong> to </strong>1**. <img src="images/bar-07.png" alt="bar-step-07" /></p></li>
+<li><p>Right click on the <strong>Y-Axis</strong> again and untick <strong>Show Header</strong>.<br />
+<img src="images/bar-08.png" style="width:50.0%" alt="bar-step-08" /></p></li>
+<li><p>Drag <strong>% Share of Resident Labour Force</strong> to <strong>Label</strong> under <strong>Marks</strong>.<br />
+<img src="images/bar-09.png" style="width:50.0%" alt="bar-step-09" /></p></li>
+<li><p>Click on the <strong>Down Arrow</strong> that appears when you hover over the added label and click on <strong>Format</strong>.<br />
+<img src="images/bar-10.png" style="width:50.0%" alt="bar-step-10" /><br />
+</p></li>
+<li><p>Under <strong>Default</strong> &gt;&gt; <strong>Numbers</strong>, choose <strong>Percentage</strong> and select <strong>2 decimal places</strong>.<br />
+<img src="images/bar-11.png" alt="bar-step-11" /></p></li>
+<li><p>Rename current sheet to <strong>% Share of Resident Labour Force (2009 vs 2019)</strong>.<br />
+<img src="images/bar-12.png" alt="bar-step-12" /></p></li>
+<li><p>To remove the grid lines, first right click on the chart and click <strong>Format</strong>.<br />
+<img src="images/bar-13.png" alt="bar-step-13" /></p></li>
+<li><p>Click on the <strong>Border</strong> icon and select <strong>Rows</strong>. Under <strong>Grid Lines</strong>, select <strong>None</strong>. <img src="images/bar-14.png" style="width:50.0%" alt="bar-step-14" /></p></li>
+<li><p>And you got your 1st completed side-by-side bar chart for all age groups.<br />
+<img src="images/bar-15.png" alt="bar-step-15" /></p></li>
+<li><p>To create the 2nd side-by-side bar chart for aggregated age groups (15-24, 25-64, and 65 &amp; Over), right click the current sheet at the bottom of the screen and click <strong>Duplicate</strong>.<br />
+<img src="images/bar-16.png" style="width:50.0%" alt="bar-step-16" /></p></li>
+<li><p>Navigate to the duplicated sheet and select the columns that want to group together (e.g. 15-19 and 20-24), right click, and select <strong>Group</strong>.<br />
+<img src="images/bar-17.png" style="width:50.0%" alt="bar-step-17" /></p></li>
+<li><p>Right click on the grouped column and click on <strong>Edit Alias</strong>.<br />
+<img src="images/bar-18.png" style="width:50.0%" alt="bar-step-18" /></p></li>
+<li><p>Rename the group accordingly e.g. in this case <strong>15 - 24</strong>. Repeat step 17-19 for the rest of the age groups <strong>i.e. 25-64 and 65 &amp; Over</strong><br />
+<img src="images/bar-19.png" alt="bar-step-19" /></p></li>
+<li><p>Rename the new sheet to <strong>% Share of Resident Labour Force (2009 vs 2019) - Aggregated</strong>.<br />
+<img src="images/bar-20.png" alt="bar-step-20" /></p></li>
+<li><p>And you got your 2nd side-by-side bar chart for the aggregated age groups.<br />
+<img src="images/bar-21.png" alt="bar-step-21" /></p></li>
+</ol>
+<h3 id="dumbbell-chart">Dumbbell Chart</h3>
+<p>Below are the steps for dumbbell chart:</p>
+<ol type="1">
+<li>Drag <strong>Age Group</strong> from Dimensions to <em>Columns</em> and <strong>LFPR</strong> from Measures to <em>Rows</em> <strong>2 times</strong>. Right click on one of the <strong>LFPR</strong> and select <strong>Dual Axis</strong>.</li>
+</ol>
+<figure>
+<img src="images/db-01.png" alt="" /><figcaption>db-01</figcaption>
+</figure>
+<ol start="2" type="1">
+<li>Drag <strong>Age Group</strong> to <em>Filters</em> and select the age groups that we want.<br />
+i.e. 15-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70 &amp; Over</li>
+</ol>
+<figure>
+<img src="images/db-02.png" alt="" /><figcaption>db-02</figcaption>
+</figure>
+<ol start="3" type="1">
+<li><p>Right click on the <strong>Y-Axis</strong> and select <strong>Format</strong>. Click on <strong>Numbers</strong> and change to <strong>Percentage</strong> at <strong>1 decimal place</strong>.<br />
+<img src="images/db-03.png" alt="db-03" /></p></li>
+<li><p>Under <strong>Marks</strong>, go to the first <strong>SUM(LFPR)</strong>.<br />
+Change the chart type to <strong>Line</strong>.<br />
+Click on <strong>Size</strong> and adjust to approximately <strong>95%</strong> of the slider.<br />
+Drag <strong>Year</strong> from <strong>Dimension</strong> to the <strong>Line</strong> icon and drag <strong>LFPR</strong> from <strong>Measure</strong> to the <strong>Label</strong> icon. <img src="images/db-04.png" style="width:50.0%" alt="db-04" /></p></li>
+<li><p>Click on <strong>Color</strong> and select the <em>Yellow</em> that was selected in the screenshot below. Adjust the <strong>Opacity</strong> to <strong>58%</strong>.<br />
+<img src="images/db-05.png" style="width:50.0%" alt="db-05" /></p></li>
+<li><p>Navigate to second <strong>SUM(LFPR)</strong> under <strong>Mark</strong> and change the chart type to <strong>Circle</strong>.<br />
+Drag <strong>Year</strong> from <strong>Dimension</strong> to <strong>Color</strong>.<br />
+<img src="images/db-06.png" style="width:50.0%" alt="db-06" /></p></li>
+<li><p>Right click on the <strong>Y-Axis</strong> and select <strong>Synchronize Axis</strong>.<br />
+<img src="images/db-07.png" style="width:50.0%" alt="db-07" /></p></li>
+<li><p>And then right click on the <strong>Y-Axis</strong> again and untick <strong>Show Header</strong>.<br />
+<img src="images/db-08.png" style="width:50.0%" alt="db-08" /></p></li>
+<li><p>To make clearer for the audience, we have to add horizontal lines to differentiate the age groups.<br />
+Right click the chart and select <strong>Format</strong>.<br />
+<img src="images/db-09.png" alt="db-09" /></p></li>
+<li><p>Select the <strong>Border</strong> icon and go to <strong>Columns</strong> tab. Click on <strong>Grid Lines</strong> and select the <strong>Solid Line</strong>. Choose <strong>Dark Grey</strong> colour as well.<br />
+<img src="images/db-10.png" alt="db-10" /></p></li>
+<li><p>And we got our first dumbbell chart for all age groups.<br />
+<img src="images/db-11.png" alt="db-11" /></p></li>
+<li><p>To create the second dumbbell chart, right click the current sheet and click <strong>Duplicate</strong>.<br />
+<img src="images/db-12.png" style="width:50.0%" alt="db-12" /></p></li>
+<li><p>The aggregated age groups for <strong>LFPR</strong> are already available in the dataset so we just need to click on the <strong>Age Group</strong> filter and select <strong>Edit Filter</strong>.<br />
+<img src="images/db-13.png" style="width:50.0%" alt="db-13" /></p></li>
+<li><p>Select the following three age groups: <strong>15-24, 25-64, 65 &amp; Over</strong>.<br />
+<img src="images/db-14.png" alt="db-14" /></p></li>
+<li><p>Go to the <strong>Circle</strong> chart under <strong>Mark</strong> and adjust the <strong>Size</strong> accordingly. In this case, the slider is at approximately <strong>5%</strong> mark.<br />
+<img src="images/db-15.png" alt="db-15" /></p></li>
+<li><p>And you got your second dumbbell chart for the aggregated age groups!<br />
+<img src="images/db-16.png" alt="db-16" /></p></li>
+</ol>
+<h3 id="dashboard-final-data-visualisation">Dashboard &amp; Final Data Visualisation</h3>
+<p>For the dashboard, we inserted a more explanatory title <strong>“How does Singapore Resident Labour Force changed from 2009 to 2019”</strong> at the top and a clearer lead-in statement stating the overall finding of the visualisation which is that the <strong>Singapore Resident Labour Force has gotten OLDER from 2009 to 2019</strong>.</p>
+<p>The charts are also strategically placed such that the axes of all 4 charts are aligned and comparable to one another, as seen in the screenshot below.</p>
+<p>A legend is also added at the top right corner which is universally used by all 4 charts.</p>
+<figure>
+<img src="images/dashboard-01.png" alt="" /><figcaption>dashboard</figcaption>
+</figure>
 <h2 id="e.-describe-three-major-observations-revealed-by-the-data-visualisation-prepared.">e. Describe three major observations revealed by the data visualisation prepared.</h2>
+<ol type="1">
+<li>The resident labour force has gotten older with more and more elderly/potential retirees (aged 65 &amp; above) remaining in the workforce. Labour force aged 65 and above has % share of resident labour force of 7.12% in 2019, up from 3.02% in 2009.The LPFR for the same age group has increased more than 10% from 2009 to 2019.</li>
+<li>There is a noticeable increasing trend in the % share of resident labour force for resident labour aged 55 and above while the opposite is observed for resident labour aged below 55. This is a potential indication of an aging population.</li>
+<li>LFPR for age group 65-69 has the highest increase of 16.2% from 2009 to 2019. This could means that there is better recognition of our older and more experienced resident labour by their company and more of them are being re-employed after reaching retirement age of 62.</li>
+</ol>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

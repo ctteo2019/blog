@@ -29,5 +29,5 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-
+![Image of GitHub Mascot](https://github.githubassets.com/images/modules/logos_page/Octocat.png)
 
