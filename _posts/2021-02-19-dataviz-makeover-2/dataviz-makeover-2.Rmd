@@ -9,6 +9,9 @@ date: 02-19-2021
 output:
   distill::distill_article:
     self_contained: false
+    toc: true
+    toc_depth: 2
+    toc_float: false
 ---
 
 
@@ -26,7 +29,7 @@ The data used by the research team was obtained from [Imperial College London Yo
 
 # The Task
 
-## a. Critic the data visualisation from both its clarity and aesthetics. At least three from each evaluation criterion.
+## a. Critic the Data Visualisation
 
 ### Clarity
 
@@ -43,7 +46,7 @@ The data used by the research team was obtained from [Imperial College London Yo
 3. **The legend was not labeled clearly and fully** as only 1 and 5 are shown as "Strongly Agree" and "Strongly Disagree" respectively. 2, 3, and 4 were not labeled and were left to readers to derive. 
 4. **The sorting order of the legend also differs from the actually presented order** of the data in the visualisation. The order in the visualisation starts from strongly disagree on the left to strongly agree on the right, while the legend sorted in the opposite way from top to down. This is harder for the readers to compare and reference.
 
-## b. With reference to the critics above, suggest alternative graphical presentation to improve the current design. Sketch out the proposed design. The proposed alternative design should include interactive techniques. Support your design by describing the advantages or which part of the issue(s) your alternative design try to overcome.
+## b. Alternative Graphical Presentation
 
 ### Proposed Visualisation
 
@@ -65,11 +68,11 @@ The data used by the research team was obtained from [Imperial College London Yo
 3. The number 1 to 5 are taken out of the legend and **replaced with the actual meaning.** i.e. strongly agree, agree, neutral, disagree, and strongly disagree.
 4. The legend will be **sorted according to the order in the visualisation**, from strongly agree to strongly disagree, so that it is easier for readers to reference.
 
-## c. Using Tableau, design the proposed data visualisation.
+## c. Tableau Visualisation   
 
+[Tableau Visualisation Dashboard](https://public.tableau.com/profile/lance.teo#!/vizhome/dataviz_02_v3/Dashboard)
 
-
-## d. Provide step-by-step description on how the data visualisation was prepared.
+## d. Tableau Visualisation - Step-by-step
 
 ### Data Preparation
 
@@ -359,7 +362,7 @@ Reference Sheet for mapping.
 
 ![Dashboard 6](./images/406.png)
 
-## e. Describe three major observations revealed by the data visualisation prepared.
+## e. Major Observations
 
 1. **Many are probably worried about potential side effects of vaccine** that are created in about 1 short years (vaccine usually takes many more years to create) and are waiting for at least a year later before they can fully accept the vaccine.
 
